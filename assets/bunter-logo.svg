@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Bunter</title>
+  <desc id="desc">A friendly cream bulldog with folded ears, a broad muzzle, and a navy bow tie with a gold knot.</desc>
+  <g stroke="#142131" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="#B8955E" d="M150 115C122 76 91 69 68 89L53 173Q51 194 75 182L119 160M362 115C390 76 421 69 444 89L459 173Q461 194 437 182L393 160"/>
+    <path fill="#F5EDE0" d="M256 91C211 76 162 94 132 124C105 153 99 192 94 229C74 254 71 297 91 332C116 378 176 399 256 400C336 399 396 378 421 332C441 297 438 254 418 229C413 192 407 153 380 124C350 94 301 76 256 91Z"/>
+    <path fill="#B8955E" stroke="none" d="M138 134C162 109 193 100 220 105C199 125 197 148 195 171C194 199 173 217 142 216L112 217C117 181 120 155 138 134Z"/>
+    <path fill="none" d="M221 140Q256 122 291 140M237 162Q256 152 275 162" stroke-width="9"/>
+    <path fill="none" d="M133 202Q154 185 178 195M334 195Q358 185 379 202" stroke-width="11"/>
+    <ellipse fill="#142131" stroke="none" cx="158" cy="223" rx="15" ry="19"/>
+    <ellipse fill="#142131" stroke="none" cx="354" cy="223" rx="15" ry="19"/>
+    <circle fill="#FFFDF8" stroke="none" cx="162" cy="217" r="5"/>
+    <circle fill="#FFFDF8" stroke="none" cx="358" cy="217" r="5"/>
+    <path fill="#142131" d="M183 302Q256 271 329 302L321 333Q305 367 256 368Q207 367 191 333Z"/>
+    <path fill="#D48F83" stroke="none" d="M225 337Q256 322 287 337L283 349Q256 369 229 349Z"/>
+    <path fill="#F5EDE0" d="M256 246C224 217 189 233 173 253C143 254 128 276 137 303C144 326 166 335 188 325Q232 337 256 300Q280 337 324 325C346 335 368 326 375 303C384 276 369 254 339 253C323 233 288 217 256 246Z"/>
+    <path fill="#142131" stroke="none" d="M228 243Q256 230 284 243Q295 251 280 266L263 279Q256 284 249 279L232 266Q217 251 228 243Z"/>
+    <path fill="none" d="M256 276V298" stroke-width="9"/>
+    <g fill="#B8955E" stroke="none">
+      <circle cx="175" cy="283" r="4"/><circle cx="198" cy="290" r="4"/>
+      <circle cx="337" cy="283" r="4"/><circle cx="314" cy="290" r="4"/>
+    </g>
+    <path fill="#142131" d="M236 419L178 395Q165 389 165 405V447Q165 461 179 455L236 435M276 419L334 395Q347 389 347 405V447Q347 461 333 455L276 435"/>
+    <rect fill="#B8955E" x="235" y="408" width="42" height="39" rx="13" stroke-width="9"/>
+  </g>
+</svg>
