@@ -1,16 +1,6 @@
----
-name: bunter-triage
-description: >
-  Triage a pull request for contribution value, scope, evidence, project fit,
-  and duplication. Use when the user invokes bunter-triage, asks to screen PRs
-  for low-quality contributions or PR slop, or wants to assess readiness for
-  maintainer review. Recommends next steps without posting comments or closing
-  PRs. Not an AI-authorship detector or a full correctness review.
----
-
 # Bunter Triage
 
-Assess the contribution, not the contributor. Keep responses short, grammatical, specific, and respectful. Follow explicit language-learning instructions in full. Do not infer quality from suspected AI authorship, writing style, contributor experience, or PR size alone.
+Assess the contribution, not the contributor. Do not infer quality from suspected AI authorship, writing style, contributor experience, or PR size alone.
 
 ## Gather context
 
@@ -42,4 +32,4 @@ Finish with a brief coverage or verification limitation only when material. Do n
 
 ## Boundaries
 
-Read and report by default. Do not edit the contribution, publish feedback, submit a review, label or close the PR, or merge it without explicit authorization for that action. Draft feedback in the response when requested. Do not automatically launch bunter-review or a repository-wide audit; recommend a focused follow-up when warranted.
+Read and report by default. Do not edit the contribution, publish feedback, submit a review, label or close the PR, or merge it without explicit authorization for that action. Draft feedback in the response when requested. Do not automatically launch Bunter review or a repository-wide audit; recommend a focused follow-up when warranted.

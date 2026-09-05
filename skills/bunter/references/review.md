@@ -1,23 +1,12 @@
----
-name: bunter-review
-description: >
-  Review a diff or pull request for over-engineering: unnecessary abstractions,
-  dependencies, dead flexibility, and duplicated standard-library or platform
-  functionality. Use when the user requests an over-engineering review of
-  changes, asks what can be cut from a diff, or invokes bunter-review.
-  Reports suggestions without applying fixes. Not a correctness review or
-  a repository-wide audit.
----
-
 # Bunter Review
 
-Review changes for unnecessary complexity. Ground findings in the diff and verify proposed simplifications against surrounding code. Keep every response brief and grammatical, including progress updates. Preserve exact technical details and required evidence; expand when requested and follow explicit language-learning instructions in full.
+Review changes for unnecessary complexity. Ground findings in the diff and verify proposed simplifications against surrounding code.
 
 ## Scope
 
 Follow applicable repository instructions. Use the supplied diff, PR, or comparison. If no target is supplied, inspect staged and unstaged changes in the current repository. If there are no changes, ask for a PR or comparison target rather than inventing a base branch or auditing the whole repository.
 
-Read relevant callers, tests, configuration, and documented requirements to verify candidates. Findings must concern changed or directly affected code. Existing unrelated complexity belongs in bunter-audit. Use targeted searches and bounded reads; avoid loading the whole repository.
+Read relevant callers, tests, configuration, and documented requirements to verify candidates. Findings must concern changed or directly affected code. Existing unrelated complexity belongs in Bunter audit. Use targeted searches and bounded reads; avoid loading the whole repository.
 
 ## Tags
 

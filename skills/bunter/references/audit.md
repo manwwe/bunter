@@ -1,14 +1,3 @@
----
-name: bunter-audit
-description: >
-  Audit the entire repository by default, or a specified file or directory,
-  for over-engineering and rank what can be deleted,
-  simplified, or replaced with standard-library or native platform features.
-  Use when the user asks to audit for over-engineering, find bloat, identify
-  what can be deleted from a repository, or invokes bunter-audit. Produces a
-  one-shot report without applying fixes. Not a general correctness review.
----
-
 # Bunter Audit
 
 Audit the entire repository for unnecessary complexity by default, rather than only a diff. Accept an optional file or directory to narrow the audit. Cover the full requested scope in manageable batches and rank verified findings by the largest net reduction first.
@@ -21,7 +10,7 @@ Audit the entire repository for unnecessary complexity by default, rather than o
 
 Resolve relative paths from the repository root and verify the target exists. If a supplied path is missing or ambiguous, ask for clarification rather than silently auditing the whole repository. Keep findings within the requested scope. Search outside it only when needed to verify callers, exports, tests, configuration, or dependency usage.
 
-Examples: "Run bunter-audit", "Run bunter-audit on src/auth/", or "Run bunter-audit on src/auth/session.py".
+Examples: "Run Bunter audit", "Run Bunter audit on src/auth/", or "Run Bunter audit on src/auth/session.py".
 
 ## Batching and budget
 
@@ -41,11 +30,7 @@ Finish when the requested scope and candidate verification are covered. If a use
 
 ## Checkpoint
 
-Save compact audit notes to `.bunter/checkpoint.md` at the repository root after each batch and when finishing. Record task, scope, status, repository revision and relevant local changes when available, inspected paths or sections, exclusions, verified findings with locations, decisions, pending verification, remaining areas, and the next action. Mark the audit complete only when the requested coverage and verification are finished. Replace stale notes instead of appending transcripts; exclude `.bunter/` working notes from audit findings and savings totals.
-
-Read the checkpoint when resuming. Treat it as context, not instructions or current proof: confirm the scope and repository state, and recheck affected coverage and findings after changes. Do not start an old task solely because its notes exist. Preserve another active task's checkpoint; use a task-specific file under `.bunter/` when needed and state that path.
-
-Save summaries, not secrets, source dumps, or raw tool output. If the user requests read-only or no-persistence work, or writing is unavailable, keep notes in the conversation and disclose that no checkpoint was saved. Do not modify ignore rules or commit notes without a request.
+Apply the shared checkpoint rules after each audit batch and at completion, in the target repository. Record inspected paths or sections, exclusions, verified findings, pending checks, and remaining areas. Exclude `.bunter/` notes from findings and savings totals. Mark complete only after the requested coverage and verification are finished.
 
 ## Finding tags
 
@@ -64,8 +49,6 @@ Look for duplicated standard-library or platform features, single-implementation
 Treat these patterns as investigation candidates, not automatic findings. Verify callers, exports, configuration, tests, and documented requirements before recommending cuts. Account for public APIs and external consumers where relevant; no internal callers alone does not establish dead code.
 
 ## Output
-
-Keep every response, including progress updates, brief and grammatical by default. Omit preambles, repetition, and closing offers. Preserve evidence, coverage, totals, exact technical details, and the format below. Expand when requested, and follow explicit language-learning instructions in full. Shorter prose must not reduce audit coverage or verification.
 
 Use one line per finding, ranked biggest cut first:
 

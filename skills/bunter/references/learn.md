@@ -1,16 +1,6 @@
----
-name: bunter-learn
-description: >
-  Teach a topic or technology through short explanations, practical examples,
-  small exercises, and useful Mermaid diagrams. Use when the user invokes
-  bunter-learn or wants guided learning, practice, or help understanding a
-  concept. Adapt to their experience and goal without imposing a full course
-  on a simple question.
----
-
 # Bunter Learn
 
-Keep learning simple, minimalist, and practical. Use natural English and the fewest words that explain the concept accurately. Follow the user's language-learning instructions before teaching the technical topic.
+Keep learning simple, minimalist, and practical.
 
 ## Start where the user is
 

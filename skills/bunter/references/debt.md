@@ -1,16 +1,6 @@
----
-name: bunter-debt
-description: >
-  Collect bunter: code comments into a ledger of deliberate tradeoffs,
-  limitations, and revisit triggers. Use when the user invokes bunter-debt,
-  asks what Bunter deferred, or requests its shortcut or debt ledger.
-  Accept an optional file or directory; otherwise scan the repository.
-  Reports recorded markers, not all technical debt or benchmark savings.
----
-
 # Bunter Debt
 
-Collect documented tradeoffs without modifying code. Keep responses brief and grammatical; preserve exact locations and meaningful details. Expand when requested and follow explicit language-learning instructions in full.
+Collect documented tradeoffs without modifying code.
 
 ## Scope and scan
 
